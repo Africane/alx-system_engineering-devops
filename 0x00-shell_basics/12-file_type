@@ -1,0 +1,2 @@
+#!/bin/bash
+file -b iamafile > /tmp/file_type_output.txt
