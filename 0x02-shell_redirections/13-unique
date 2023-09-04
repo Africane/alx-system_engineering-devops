@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -lne 'push(@words, $_); END { foreach $word (sort @words) { $count{$word}++; } foreach $word (sort @words) {print $word if $count{$word} == 1; } }'
+sort | uniq -c | grep -w '1' | cut -d ' ' -f 2- | sort
