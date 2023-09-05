@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Text to be moded" | tr 'A-Za-z' 'N-ZA-Mn-za-m' | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+echo "Text to be moded" | tr 'A-Za-z' 'N-ZA-Mn-za-mN-ZA-Mn-za-m'
