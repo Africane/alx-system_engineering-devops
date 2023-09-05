@@ -1,0 +1,2 @@
+#!/bin/bash
+bc -l <<< "scale=2; $BREATH^$LOVE"
