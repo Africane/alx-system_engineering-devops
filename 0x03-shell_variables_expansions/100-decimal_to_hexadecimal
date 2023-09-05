@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "obase=16;ibase=10;$DECIMAL" | bc
+DECIMAL=12345; HEX=$(printf "%x" $DECIMAL); echo $HEX
